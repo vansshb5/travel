@@ -14,7 +14,7 @@ if (menu && navbar) {
     navbar.classList.remove('active');
   };
 }
-const swiper = new Swiper('.home-slider', {
+var swiper = new Swiper('.home-slider', {
     loop:true,
     grabCursor: true,
   navigation: {
@@ -30,3 +30,24 @@ const swiper = new Swiper('.home-slider', {
     nextSlideMessage: 'Next slide',
   },
 });
+
+window.addEventListener("scroll", function() {
+  const header = document.querySelector(".header");
+  if (window.scrollY > 50) {
+    header.classList.add("scrolled");
+  } else {
+    header.classList.remove("scrolled");
+  }
+});
+var swiper = new Swiper(".reviews-slider", {
+  loop: true,
+  spaceBetween: 20,
+  autoHeight: true,
+  grabCursor: true,
+  breakpoints: {
+    640: { slidesPerView: 1 },
+    768: { slidesPerView: 2 },
+    1024: { slidesPerView: 3 },
+  },
+});
+

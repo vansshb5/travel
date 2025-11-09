@@ -102,6 +102,51 @@
         <a href="about.php" class="btn">read more</a>
     </div>
 </section>
+<section class="home-packages">
+  <h1 class="heading-title">
+    our packages
+  </h1>
+  <div class="box-container">
+    <div class="box">
+      <div class="image">
+        <img src="images/img-1.png" alt="" >
+      </div>
+      <div class="content">
+        <h3>adventure & tour</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut asperiores repudiandae, ea quibusdam cum distinctio eos iste, ullam non dolores facilis inventore placeat modi alias necessitatibus voluptates voluptatum? Reiciendis?</p>
+        <a href="book.php" class="btn">book now</a>
+      </div>
+    </div>
+      <div class="box">
+      <div class="image">
+        <img src="images/img-2.png" alt="" >
+      </div>
+      <div class="content">
+        <h3>adventure & tour</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut asperiores repudiandae, ea quibusdam cum distinctio eos iste, ullam non dolores facilis inventore placeat modi alias necessitatibus voluptates voluptatum? Reiciendis?</p>
+        <a href="book.php" class="btn">book now</a>
+      </div>
+    </div>
+      <div class="box">
+      <div class="image">
+        <img src="images/img-3.png" alt="" >
+      </div>
+      <div class="content">
+        <h3>adventure & tour</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut asperiores repudiandae, ea quibusdam cum distinctio eos iste, ullam non dolores facilis inventore placeat modi alias necessitatibus voluptates voluptatum? Reiciendis?</p>
+        <a href="book.php" class="btn">book now</a>
+      </div>
+    </div>
+  </div>
+  <div class="load-more"><a href="packages.php" class="btn">load more</a></div>
+</section>
+<section class="home-offer">
+  <div class="content">
+    <h3>upto 50% off</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque facere unde dolores voluptas obcaecati eos aliquam at cupiditate pariatur commodi expedita labore veniam ut consequatur, ipsam dicta deleniti earum!</p>
+    <a href="book.php" class="btn">book now</a>
+  </div>
+</section>
   <!-- FOOTER -->
   <section class="footer">
     <div class="box-container">
